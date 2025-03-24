@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import "./variables";
+
+* {
+  font-family: 'InterTight-Regular' !important;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--unique-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+[type='checkbox'],
+[type='radio'] {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Главный контейнер скроллбара */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Вертикальный бегунок */
+::-webkit-scrollbar-thumb {
+  background: var(--steel-70);
+  border-radius: 6px;
+}
+
+/* Горизонтальный бегунок */
+::-webkit-scrollbar-thumb:horizontal {
+  background: var(--steel-70);
+  border-radius: 6px;
+}
+
+/* Место стыка скролла */
+::-webkit-scrollbar-corner {
+  background-color: #3b3c41;
+}
+@font-face {
+  font-family: 'Unbounded-Light';
+  src: url('./fonts/Unbounded-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  src: url('./fonts/Unbounded-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded-Medium';
+  src: url('./fonts/Unbounded-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded-SemiBold';
+  src: url('./fonts/Unbounded-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterTight-Light';
+  src: url('./fonts/InterTight-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterTight-Regular';
+  src: url('./fonts/InterTight-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterTight-Medium';
+  src: url('./fonts/InterTight-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterTight-SemiBold';
+  src: url('./fonts/InterTight-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: 'InterTight-Regular' !important;
+  letter-spacing: 1px !important;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}

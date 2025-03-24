@@ -1,0 +1,15 @@
+
+import { SvgTypesProps } from "../../types";
+
+export function IconHome({
+  fill = 'var(--steel-20)',
+  width = 16,
+  height = 16,
+}: SvgTypesProps) {
+  return (
+    <svg width={width} height={height} viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 6.6L8 1L15 6.6V15.4C15 15.8243 14.8361 16.2313 14.5444 16.5314C14.2527 16.8314 13.857 17 13.4444 17H2.55556C2.143 17 1.74733 16.8314 1.45561 16.5314C1.16389 16.2313 1 15.8243 1 15.4V6.6Z" stroke={fill} strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M5.6665 17V9H10.3332V17" stroke="#60749A" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}

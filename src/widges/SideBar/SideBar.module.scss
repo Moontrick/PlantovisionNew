@@ -1,0 +1,16 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1vw;
+
+}
+.img_block{
+    background: url(../../assets/images/Plantovision_logo_2.png) 0 no-repeat;
+    width: 100%;
+    height: 5vw;
+    background-size: 10vw;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}

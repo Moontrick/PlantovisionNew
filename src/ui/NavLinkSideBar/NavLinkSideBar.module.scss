@@ -1,0 +1,13 @@
+.navLink{
+    color: var(--steel-180);
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    transition: all 0.3s ease-in-out;
+    padding: 0.5vw;
+    border-radius: 4px;
+    &:hover{
+        color: var(--sapphire-10);
+        background: var(--steel-230);
+    }
+}

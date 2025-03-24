@@ -1,0 +1,201 @@
+$light-theme: (
+  --unique-background: #DFE2EB,
+  --unique-white: #DFE2EB,
+  --unique-white-10: #FFFFFF,
+  --unique-white-20: #F8F4FF,
+  --unique-gray: #A4AEC1,
+  --sapphire-10: #0073FF,
+  --sapphire-20: #518BFF,
+  --sapphire-30: #0073FF33,
+  --sapphire-40: #0073FF66,
+  --sapphire-50: #86B6F3,
+  --sapphire-60: #A6C3FF38,
+  --jasper-10: #FFA100,
+  --ruby-10: #FF3535,
+  --ruby-20: #FF7B674D,
+  --ruby-30: #FF353533,
+  --emerald-10: #5AC23A,
+  --emerald-20: #5AC23A33,
+  --steel-10: #000000,
+  --steel-20: #656C79,
+  --steel-30: #C8CEDA,
+  --steel-40: #E8EAF71A,
+  --steel-50: #F8FAFF,
+  --steel-60: #A3ACC2,
+  --steel-70: #A4AEC1,
+  --steel-80: #30363F,
+  --steel-90: #C8CEDA,
+  --steel-100: #FFFFFF99,
+  --steel-110: #DFE2EB,
+  --steel-120: #E8ECF3,
+  --steel-130: #8B8B8B,
+  --steel-140: #9090904D,
+  --steel-150: #D9D9D9,
+  --steel-160: #60759A,
+  --steel-170: #CADCF2,
+  --steel-180: #60749A,
+  --steel-190: #7092D6,
+  --steel-200: #B9B9B9,
+  --steel-210: #3F3F3F,
+  --steel-220: #CED5E438,
+  --steel-230: #F4F6F9,
+  --steel-240: #A0A0A0,
+  --steel-250: #D9E2EF,
+
+  // ЦВЕТА ТЕНЕЙ И ИХ ЗНАЧЕНИЯ
+  --shadow-10: 0px 0px 6px 3px #0D275040,
+  --shadow-20: 0px 0px 18px 4px #0D275040,
+  --shadow-30: 0px 0px 9px 0px #00000040,
+  --shadow-40: 0px 0px 9px 2px #0D275040,
+  --shadow-50: 0px 0px 7px 0px #00000059 inset,
+  --shadow-60: 0px 0px 9px 2px #0D275040,
+  --shadow-70: 0px 3px 5px 0px #0D275040,
+  --shadow-80: 0px 0px 35px 15px #0D275040,
+  --shadow-90: 0px 0px 5px 0px #0000004D,
+
+
+  --shadow-100: "3px 4px 8px 0px #0D275040 inset, -4px -3px 10px 0px #FFFFFF inset",
+  --shadow-200: "0px 0px 7px 0px #00000059 inset, 0px 0px 10px 0px #7E7E7E",
+  --shadow-300: "2px 2px 7px 0px #0D275040 inset, -2px -2px 0px 0px #FFFFFF inset",
+  --shadow-400: "2px 2px 6px 0px #0D275040 inset, -1px -1px 4px 0px #FFFFFF inset",
+  --shadow-500: 0px 0px 6px 0px #0D275040,
+
+  --drop-shadow-10: 0px 0px 9px #0D275040,
+);
+
+$dark-theme: (
+  --unique-background: #2A2E37,
+  --unique-white: #DFE2EB,
+  --unique-white-10: #FFFFFF,
+  --unique-white-20: #F8F4FF,
+  --unique-gray: #A4AEC1,
+  --sapphire-10: #0073FF,
+  --sapphire-20: #518BFF,
+  --sapphire-30: #0073FF33,
+  --sapphire-40: #0073FF66,
+  --sapphire-50: #0E3B74,
+  --sapphire-60: #A6C3FF38,
+  --jasper-10: #FFA100,
+  --ruby-10: #FF3535,
+  --ruby-20: #61271E4D,
+  --ruby-30: #FF353533,
+  --emerald-10: #5AC23A,
+  --emerald-20: #5AC23A33,
+  --steel-10: #FFFFFF,
+  --steel-20: #747C8C,
+  --steel-30: #23262E,
+  --steel-40: #0000001A,
+  --steel-50: #1C2127,
+  --steel-60: #2A2E37,
+  --steel-70: #23262E,
+  --steel-80: #DFE2EB,
+  --steel-90: #747C8C,
+  --steel-100: #0000001A,
+  --steel-110: #2A2E37,
+  --steel-120: #23262E,
+  --steel-130: #DFE2EB,
+  --steel-140: #9090904D,
+  --steel-150: #D9D9D9,
+  --steel-160: #60759A,
+  --steel-170: #CADCF2,
+  --steel-180: #60749A,
+  --steel-190: #7092D6,
+  --steel-200: #B9B9B9,
+  --steel-210: #3F3F3F,
+  --steel-220: #CED5E438,
+  --steel-230: #F4F6F9,
+  --steel-240: #A0A0A0,
+  --steel-250: #D9E2EF,
+  
+  // ЦВЕТА ТЕНЕЙ И ИХ ЗНАЧЕНИЯ
+  --shadow-10: 0px 0px 6px 3px #000000D9,
+  --shadow-20: 0px 0px 29px 0px #0000008A,
+  --shadow-30: 0px 12px 18px 0px #00000040,
+  --shadow-40: 0px 0px 12px 2px #00000066,
+  --shadow-50: 0px 0px 7px 0px #00000059 inset,
+  --shadow-60: 0px 0px 12px 2px #00000066,
+  --shadow-70: 0px 3px 5px 0px #0D275040,
+  --shadow-80: 0px 0px 35px 15px #0000008A,
+  --shadow-90: 0px 0px 5px 0px #0000004D,
+
+  --shadow-100: "5px 7px 11px 0px #00000066 inset, -2px -2px 8px 0px #FFFFFF1C inset",
+  --shadow-200: "0px 0px 7px 0px #00000059 inset, 0px 0px 10px 0px #7E7E7E",
+  --shadow-300: "2px 2px 7px 0px #00000066 inset, -2px -2px 0px 0px #FFFFFF1C inset",
+  --shadow-400: "2px 2px 6px 0px #00000099 inset, -1px -1px 4px 0px #FFFFFF inset",
+  --shadow-500: 0px 0px 6px 0px #0D275040,
+
+  --drop-shadow-10: 0px 12px 18px #00000040,
+);
+
+// Миксин для применения темы
+@mixin theme($theme-map) {
+  @each $key, $value in $theme-map {
+    #{$key}: #{if(type-of($value) == "string" and str-index($value, "px") != null, unquote($value), $value)};
+  }
+}
+
+
+// Базовые стили тем
+:root {
+  /////////////!УБРАТЬ/////////////////////
+  --max-width: 1400px;
+  --border-radius: 6px;
+
+  --black: #222222;
+  --grey: #3b3c41;
+  --grey2: #2c2d33;
+  --grey3: #333333;
+  --grey4: #c2c2c5;
+  --gray5: rgba(0, 0, 0, 0.05);
+  --grey6: #7a797c;
+  --grey7: #252525;
+  --grey8: #444;
+  --grey9: #616161;
+  --gray10: #656C79;
+  --background-black: rgba(255, 255, 255, 0.1);
+  --light-gray: #d0d0d0;
+  --light-grayish-blue: #dadde9;
+  --black-2: #252525;
+  --white: #f8f4ff;
+  --white2: rgba(248, 244, 255, 0.09);
+  --pale-white: #dae0ff;
+  --blue: #038aff;
+  --blue2: #1d97ff;
+  --blue3: #0279e7;
+  --blue4: #0073FF;
+  --bright-blue: #3053fb;
+  --light-blue: #1a90ff;
+  --light-blue2: #308fe8;
+  --strong-blue: #1976d2;
+  --very-dark-blue: #1f2b52;
+  --gradient80: #c02f23;
+  --gradient40: #eb5757;
+  --gradient1: linear-gradient(90deg, #1d97ff 0%, #0279e7 100%);
+  --gradient2: linear-gradient(135deg, #000046 0%, #1cb5e0 100%);
+  --gradient3: linear-gradient(
+    90deg,
+    #f8f4ff 3%,
+    #ff00f5 26%,
+    #a532ff 41%,
+    #0066ff 62%,
+    #f8f4ff 91%
+  );
+  --gradient4: linear-gradient(45deg, #1d97ff 0%, #0279e7 100%);
+  --soft-red: #ff5a5a;
+  --pale-pink: #ffa0a0;
+  --green: #04cc04;
+  --strong-green: #379f28;
+  ///////////////////////////////////////////
+
+  @include theme($light-theme);
+}
+
+// Цвета светлой темы
+[data-theme="light"] {
+  @include theme($light-theme);
+}
+
+// Цвета темной темы
+[data-theme="dark"] {
+  @include theme($dark-theme);
+}
