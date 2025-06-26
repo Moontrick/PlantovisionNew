@@ -1,0 +1,159 @@
+/* [project]/public/assets/index.scss.css [app-client] (css) */
+:root {
+  --unique-white-10: #fff;
+  --white-10: #fff;
+  --steel-10: #000;
+  --steel-20: #d0d3d4;
+  --steel-30: #edeeef;
+  --steel-40: #a2a5a6;
+  --steel-50: #edeeefb2;
+  --steel-60: #d9d9d9;
+  --steel-70: #c4cdd5;
+  --steel-80: #768194;
+  --sapphire-10: #e5ebec;
+  --sapphire-20: #005eb8;
+  --sapphire-30: #003087;
+  --sapphire-40: #45597a;
+  --sapphire-50: #00a3e0;
+  --sapphire-60: #005eb81a;
+  --sapphire-70: #005eb833;
+  --sapphire-80: #00a3e033;
+  --sapphire-90: #005eb866;
+  --gray-10: #f5f7fa;
+  --gray-20: #676b70;
+  --gray-30: #2f353d;
+  --gray-40: #c0c5cc;
+  --gray-50: #e6e8eb;
+  --gray-60: #969ca3;
+  --gray-70: #c0c5cc66;
+  --gray-80: #2c2c2c;
+  --gray-90: #383838;
+  --ruby-10: #f5290a;
+  --shadow-100: "3px 4px 8px 0px #0D275040 inset, -4px -3px 10px 0px #FFFFFF inset";
+  --shadow-200: "0px 0px 7px 0px #00000059 inset, 0px 0px 10px 0px #7E7E7E";
+  --shadow-300: "2px 2px 7px 0px #0D275040 inset, -2px -2px 0px 0px #FFFFFF inset";
+  --shadow-400: "2px 2px 6px 0px #0D275040 inset, -1px -1px 4px 0px #FFFFFF inset";
+  --shadow-500: 0px 0px 6px 0px #0d275040;
+}
+
+html, body {
+  word-wrap: break-word;
+  letter-spacing: .3px;
+  color: #000;
+  background-color: var(--steel-20);
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: DinPro-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+[type="checkbox"], [type="radio"] {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d0d3d480;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d0d3d4e6;
+  border-radius: 20px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+@font-face {
+  font-family: Gully;
+  src: url("../media/Gully-Light.d6509dcb.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gully;
+  src: url("../media/Gully-Regular.3154ee34.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gully;
+  src: url("../media/Gully-Medium.b2210f55.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gully;
+  src: url("../media/Gully-SemiBold.6dfc6ee3.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../media/Montserrat-Light.06d7293a.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../media/Montserrat-Regular.9586c101.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../media/Montserrat-Medium.bdc86dea.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../media/Montserrat-Bold.99cc8dcc.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  font-family: Gully, sans-serif !important;
+}
+
+/*# sourceMappingURL=public_assets_index_scss_css_f9ee138c._.single.css.map*/

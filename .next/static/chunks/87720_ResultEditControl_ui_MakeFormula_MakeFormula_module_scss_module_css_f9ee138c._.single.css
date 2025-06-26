@@ -1,0 +1,102 @@
+/* [project]/features/ResultEditControl/ui/MakeFormula/MakeFormula.module.scss.module.css [app-client] (css) */
+.MakeFormula-module-scss-module__vayM7a__menuRight {
+  border-right: 1px solid var(--steel-170);
+  background: var(--gray-80);
+  z-index: 33;
+  flex-direction: column;
+  gap: 4px;
+  width: 350px;
+  height: 100vh;
+  padding-top: 24px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.MakeFormula-module-scss-module__vayM7a__menuRight_button {
+  height: 28px;
+  color: var(--sapphire-20);
+  letter-spacing: 1%;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.MakeFormula-module-scss-module__vayM7a__menuRight_title {
+  color: var(--white-10);
+  border-bottom: 1px solid var(--gray-40);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-family: Gully, sans-serif;
+  font-size: 18px;
+}
+
+.MakeFormula-module-scss-module__vayM7a__menuRight_item {
+  color: var(--white-10);
+  text-align: start;
+  letter-spacing: 1%;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--gray-40);
+  background: none;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  margin-bottom: 10px;
+  padding: 4px 8px 10px;
+  font-family: Gully, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+}
+
+.MakeFormula-module-scss-module__vayM7a__menuRight_item_circle {
+  border: 1px solid var(--white-10);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.MakeFormula-module-scss-module__vayM7a__modal {
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+  display: flex;
+}
+
+.MakeFormula-module-scss-module__vayM7a__modal_title {
+  color: var(--steel-10);
+  text-align: start;
+  font-family: Gully, sans-serif;
+  font-size: 18px;
+}
+
+.MakeFormula-module-scss-module__vayM7a__modal_buttonGroup {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.MakeFormula-module-scss-module__vayM7a__modal_buttonGroup button {
+  color: var(--sapphire-20);
+  letter-spacing: 1%;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+/*# sourceMappingURL=87720_ResultEditControl_ui_MakeFormula_MakeFormula_module_scss_module_css_f9ee138c._.single.css.map*/

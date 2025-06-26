@@ -15,8 +15,24 @@
     "verbatimModuleSyntax": false,
     "jsx": "preserve",
     "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"],
+      "@widgets/*": ["./widgets/*"],
+      "@entities/*": ["./entities/*"],
+      "@features/*": ["./features/*"],
+      "@processes/*": ["./processes/*"],
+      "@constants/*": ["./shared/config/*"],
+      "@hooks/*": ["./shared/hooks/*"],
+      "@utils/*": ["./shared/lib/*"],
+      "@store/*": ["./shared/store/*"],
+      "@ui/*": ["./shared/ui/*"],
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

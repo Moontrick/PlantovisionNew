@@ -1,0 +1,14 @@
+{
+  "app": {
+    "[project]/app/(dashboard)/home/page": [],
+    "[project]/app/(dashboard)/result/[id]/[number]/page": [],
+    "[project]/app/(dashboard)/result/[id]/page": [],
+    "[project]/app/(dashboard)/result/page": [],
+    "[project]/app/(dashboard)/upload/page": [],
+    "[project]/app/_not-found/page": [],
+    "[project]/app/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

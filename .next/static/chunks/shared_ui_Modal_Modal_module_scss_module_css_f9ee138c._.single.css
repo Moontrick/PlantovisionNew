@@ -1,0 +1,86 @@
+/* [project]/shared/ui/Modal/Modal.module.scss.module.css [app-client] (css) */
+.Modal-module-scss-module__8M2ThW__modalOverlay {
+  backdrop-filter: blur(5px);
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Modal-module-scss-module__8M2ThW__modalContainer {
+  background-color: var(--steel-20);
+  border: 1px solid var(--steel-30);
+  z-index: 100001;
+  border-radius: 12px;
+  flex-direction: column;
+  gap: 16px;
+  width: 500px;
+  max-height: 95dvh;
+  padding: 33px 50px 23px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Modal-module-scss-module__8M2ThW__modalContainerWithOutBackground {
+  z-index: 100001;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 95vw;
+  max-height: 95dvh;
+  padding: 24px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Modal-module-scss-module__8M2ThW__modalMain {
+  max-height: calc(95dvh - 118px);
+  overflow: auto;
+}
+
+.Modal-module-scss-module__8M2ThW__modalHeader {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.Modal-module-scss-module__8M2ThW__modalTitle {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.Modal-module-scss-module__8M2ThW__modalLabel {
+  color: var(--sapphire-20);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (width <= 700px) {
+  .Modal-module-scss-module__8M2ThW__modalLabel {
+    font-size: 14px;
+  }
+}
+
+@media (width <= 400px) {
+  .Modal-module-scss-module__8M2ThW__modalLabel {
+    font-size: 12px;
+  }
+}
+
+.Modal-module-scss-module__8M2ThW__modalFooter {
+  justify-content: flex-end;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=shared_ui_Modal_Modal_module_scss_module_css_f9ee138c._.single.css.map*/

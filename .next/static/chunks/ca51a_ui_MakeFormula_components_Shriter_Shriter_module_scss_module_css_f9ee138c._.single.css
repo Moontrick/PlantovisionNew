@@ -1,0 +1,23 @@
+/* [project]/features/ResultEditControl/ui/MakeFormula/components/Shriter/Shriter.module.scss.module.css [app-client] (css) */
+.Shriter-module-scss-module__O20dWa__root {
+  flex-direction: column;
+  gap: 24px;
+  width: 300px;
+  display: flex;
+}
+
+.Shriter-module-scss-module__O20dWa__root_button {
+  height: 28px;
+  color: var(--sapphire-20);
+  letter-spacing: 1%;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 12px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+/*# sourceMappingURL=ca51a_ui_MakeFormula_components_Shriter_Shriter_module_scss_module_css_f9ee138c._.single.css.map*/

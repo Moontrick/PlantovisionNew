@@ -1,0 +1,134 @@
+/* [project]/shared/ui/Select/Select.module.scss.module.css [app-client] (css) */
+.Select-module-scss-module__pytt-W__selectContainer {
+  background-color: var(--unique-white-10);
+  cursor: pointer;
+  border: 1px solid var(--gray-40);
+  border-radius: 10px;
+  position: relative;
+}
+
+.Select-module-scss-module__pytt-W__selectedWrapper {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding-left: 16px;
+  display: flex;
+}
+
+.Select-module-scss-module__pytt-W__selectedWrapperLabel {
+  text-align: center;
+  height: 14px;
+  color: var(--gray-20);
+  background-color: #0000;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  top: -23.5px;
+  left: -1px;
+}
+
+.Select-module-scss-module__pytt-W__selectLabel {
+  color: var(--gray-30);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.Select-module-scss-module__pytt-W__dropdown {
+  top: inherit;
+  left: inherit;
+  border: 1px solid var(--gray-40);
+  background-color: var(--unique-white-10);
+  width: 300px;
+  color: var(--gray-30);
+  z-index: 11;
+  border-radius: 10px;
+  height: 126px;
+  padding: 8px 8px 8px 15px;
+  position: fixed;
+  overflow: hidden;
+}
+
+.Select-module-scss-module__pytt-W__dropdown__content {
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+}
+
+.Select-module-scss-module__pytt-W__dropdown__content::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 4px;
+}
+
+.Select-module-scss-module__pytt-W__dropdown__content::-webkit-scrollbar-track {
+  background: var(--gray-50);
+  border-radius: 20px;
+}
+
+.Select-module-scss-module__pytt-W__dropdown__content::-webkit-scrollbar-thumb {
+  background: var(--gray-40);
+  border-radius: 20px;
+}
+
+.Select-module-scss-module__pytt-W__option {
+  border-radius: 50px;
+  align-items: center;
+  gap: 12px;
+  height: 24px;
+  display: flex;
+}
+
+.Select-module-scss-module__pytt-W__option_label {
+  color: var(--gray-30);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+[data-size="s"] .Select-module-scss-module__pytt-W__selectLabel {
+  line-height: 32px;
+}
+
+[data-size="m"] .Select-module-scss-module__pytt-W__selectLabel, [data-size="l"] .Select-module-scss-module__pytt-W__selectLabel {
+  line-height: 40px;
+}
+
+.Select-module-scss-module__pytt-W__selectContainer[data-size="s"] {
+  height: 32px;
+}
+
+.Select-module-scss-module__pytt-W__selectContainer[data-size="m"], .Select-module-scss-module__pytt-W__selectContainer[data-size="l"] {
+  height: 40px;
+}
+
+.Select-module-scss-module__pytt-W__selectContainer[data-disabled="true"] {
+  pointer-events: none;
+}
+
+.Select-module-scss-module__pytt-W__highlighted {
+  background-color: var(--steel-110);
+}
+
+.Select-module-scss-module__pytt-W__arrow {
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  top: 53%;
+  right: 6px;
+  transform: translateY(-50%);
+}
+
+.Select-module-scss-module__pytt-W__arrow_container {
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;
+  display: flex;
+}
+
+.Select-module-scss-module__pytt-W__open {
+  border: 1px solid var(--sapphire-20);
+}
+
+/*# sourceMappingURL=shared_ui_Select_Select_module_scss_module_css_f9ee138c._.single.css.map*/
