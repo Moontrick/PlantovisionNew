@@ -24,7 +24,6 @@ widgets           # Компоненты виджетов - Sidebar, RootWrapper
 1. Клонировать репозиторий:
    ```bash
    git clone https://github.com/Moontrick/PlantovisionNew.git
-   cd frontend
    ```
 2. Установить зависимости:
    ```bash
